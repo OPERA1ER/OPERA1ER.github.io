@@ -1,0 +1,39 @@
+body {
+  background-color: #121212;
+  color: #f0f0f0;
+  font-family: 'Segoe UI', sans-serif;
+}
+header {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  border-bottom: 3px solid orange;
+  text-align: center;
+}
+header h1 {
+  color: orange;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+nav a:hover {
+  color: orange;
+}
+main {
+  padding: 2rem;
+}
+h2 {
+  color: orange;
+}
+footer {
+  background-color: #1a1a1a;
+  color: #aaa;
+  text-align: center;
+  padding: 1rem;
+}
